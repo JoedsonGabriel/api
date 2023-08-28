@@ -21,10 +21,10 @@ SECRET_KEY = os.environ["SECRET_KEY"]
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [".railway.app", "*"]
+ALLOWED_HOSTS = [".railway.app"]
 
 # Comment out the following line and place your railway URL, and your production URL in the array.
-CSRF_TRUSTED_ORIGINS = ["https://joedson-api.up.railway.app", "*"]
+CSRF_TRUSTED_ORIGINS = ["https://joedson-api.up.railway.app"]
 
 
 # Application definition
