@@ -22,7 +22,7 @@ DEBUG = True
 ALLOWED_HOSTS = [".railway.app", "*"]
 
 # Comment out the following line and place your railway URL, and your production URL in the array.
-CSRF_TRUSTED_ORIGINS = [".railway.app", "*"]
+# CSRF_TRUSTED_ORIGINS = [".railway.app", "*"]
 
 
 # Application definition
