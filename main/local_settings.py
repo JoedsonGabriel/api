@@ -19,11 +19,10 @@ SECRET_KEY = "django-insecure-3l(vm@zmjb5rp)pcs@f4ht_73ex3k45h(8xq_c(_)9ww$old8s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [".railway.app", "*"]
+ALLOWED_HOSTS = ["https://joedson-api.up.railway.app", "joedson-api.up.railway.app"]
 
 # Comment out the following line and place your railway URL, and your production URL in the array.
-# CSRF_TRUSTED_ORIGINS = [".railway.app", "*"]
-
+CSRF_TRUSTED_ORIGINS = ["https://joedson-api.up.railway.app"]
 
 # Application definition
 
